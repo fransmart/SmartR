@@ -24,6 +24,10 @@ test.validateLoadedVariables3 <- function() {
   checkTrue(ret)
 }
 
+test.meant.tofail <- function() {
+  checkTrue(F)
+}
+
 test.isHDD1 <- function() {
   checkException( isHDD(ClinicalNumericProper) )
 }
